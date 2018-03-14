@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="test.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:test"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="speak" Content="Speak" HorizontalAlignment="Left" Margin="99,346,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Button x:Name="ok" Content="OK" HorizontalAlignment="Left" Margin="533,121,0,0" VerticalAlignment="Top" Click="ok_Click"/>
+        <TextBox x:Name="word_in" HorizontalAlignment="Left" Margin="368,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.408,0.447" Width="131" Text=""/>
+        <ScrollViewer HorizontalAlignment="Left" Height="274" Margin="368,169,0,0" VerticalAlignment="Top" Width="207" RenderTransformOrigin="-2.947,-0.628" VerticalScrollBarVisibility="Visible">
+            <ScrollViewer.Content>
+                <TextBlock x:Name="word_out" TextWrapping="Wrap"  Width="131" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.738,1.115"/>
+            </ScrollViewer.Content>
+        </ScrollViewer>
+    </Grid>
+</Page>

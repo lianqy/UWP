@@ -1,0 +1,2 @@
+MainPackage=C:\Users\user\Desktop\project_v5.4\Booklists\bin\x64\Debug\Booklists_1.0.3.0_x64_Debug.appx
+SymbolPackage=C:\Users\user\Desktop\project_v5.4\Booklists\AppPackages\Booklists_1.0.3.0_Debug_Test\Booklists_1.0.3.0_x64_Debug.appxsym
